@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--global-body-font-family) !important;
+}
+
+.formbuttom_div :hover{
+  background-color: antiquewhite !important;
+    
+}
+.st_subdiv input{
+    width: 256px !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-white.Header_section {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+/* Header */
+.Parent_header{
+    margin: 0;
+    padding: 0;
+    /* max-width: 1400px;
+    width: 100%; */
+    background-color: #fff;
+}
+
+.child_Header{
+    max-width: 1480px;
+    width: 100%;
+    /* padding: 40px 150px 40px 150px; */
+    display: block;
+    margin: auto;
+}
+
+.Parent_SubHeader{
+    max-width: 1480px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.Parent_childHeader{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.fire{
+    width: 20px;
+}
+
+.logo {
+    width: 10%;
+    padding: 10px
+}
+.header{
+    padding: 10px;
+}
+.header a{
+    text-decoration: none ;
+    font-size: 15px;
+    padding: 10px;
+    /* margin-top: 1px; */
+}
+
+.getaproposal{
+        padding: 15px;
+        /* background-color: aquamarine; */
+        border: none;
+        background-image: linear-gradient(74deg, #544797 0%, #01B1AF 100%);
+}
+
+
+/* section-1 */
+
+.Parent_section1{
+    background-image: url(./img/Noida-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     position: relative;
+     z-index: 2;
+}
+.Parent_Subsection1{
+    max-width: 1480px;
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    display: block;
+    margin: auto;
+}
+.Parent_section1::before{
+  content:"";
+  background-image: linear-gradient(110deg, #00B2B0 35%, #7C4CC640 100%);
+  opacity: 0.94;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
+
+.Parent_childsection1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+}
+.SubHeaderContent2 {
+    padding:35px;
+}
+
+.HeaderContent2{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFFFFFBD 0%, #FFFFFFE8 81%);
+    border-radius: 2px 2px 2px 2px;
+}
+.HeaderContent1{
+    /* padding: 19px 20px 30px 48px */
+}
+.HeaderContent1 h1{
+    font-size: 40px !important;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.HeaderContent1 .touch{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    width: 9em;
+    margin: 10px 0px 0px 0px;
+    border-radius: 3px;
+    
+}
+
+.HeaderContent1 .touch:hover{
+    border: 1px solid white;
+    background-color: #00B2B0
+}
+
+/* .st_div{
+    display: flex;
+} */
+.inputflex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.st_div{
+    display: flex;
+    gap: 18px;
+}
+.st_subdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6px;
+    /* padding: 0px 5px 0px 0px */
+    /* width: 330px; */
+}
+/* .st_subdiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 330px;
+    padding-right: 10px;
+} */
+.st_subdiv label{
+    /* padding: 10px 0px; */
+    font-size: 17px;
+}
+
+.st_subdiv input{
+    border: none;
+    border-style: none;
+    padding: 10px;
+    width: 274px;
+}
+.st_subdiv select{
+    border: none;
+    border-style: none;
+    padding: 10px;
+    width: 274px
+    /* width: 95%;  */
+}
+.divurl{
+    margin: 15px 0px;
+    /* padding: 10px 0px; */
+    /* width: 660px; */
+    display: flex;
+    flex-direction: column;
+}
+.divurl label{
+    padding: 0px 0px!important;
+    font-size: 20px;
+}
+
+.divurl input{
+    margin: 10px 0px;
+    border: none;
+    border-style: none;
+    padding: 10px;
+    /* width: 97%; */
+}
+.divbuttom{
+    margin: 15px 0px;
+    padding: 2px 0px;
+    /* width: 642px; */
+    background-color: red;
+}
+
+
+.divbuttom .SubmitButton{
+    color: white;
+    background-color: red;
+    border: none;
+    border-style: none;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+   
+}
+
+.Parent_subchildsection2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*     section - 02    */
+
+.Parent_section2{
+    padding: 20px 40px
+}
+
+
+.Parent_subsection2 {
+    max-width: 1480px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 10px 40px;
+}
+
+.Parent_subchildsection2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    max-width: 1486px;
+    width: 100%;
+}
+.Content_subparagraph p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+
+.Parent_Content {
+    padding: 10px 0px 0px 40px;
+}
+.Content_subHeading h1{
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    padding: 10px 0px;
+    align-items: left !important;
+    font-family: sans-serif !important;
+}
+
+.Content_subparagraph1 p{
+    font-size: 18px !important; 
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.Content_subparagraph1 strong {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
+
+
+.Content_subcenter h3{
+    text-align: center;
+    font-size: 23px !important;
+    padding: 10px;
+    font-weight: 600 !important;
+    line-height: 1.4em !important;
+    font-family: sans-serif !important;
+
+}
+
+.Content_sublist li{
+    font-size: 18px !important;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.Content_para p{
+    padding: 5px 0px;
+    font-size: 18px !important;
+    font-weight: 500;
+    font-family: sans-serif !important;
+    text-align: justify !important;
+}
+.Content_heading h3{
+    font-weight: 600 !important;
+    line-height: 1.4em !important;
+    font-size: 20px !important;
+    font-family: sans-serif !important;
+}
+
+a {
+    box-shadow: none;
+    text-decoration: none !important; 
+    color: #05b7b5;
+}
+
+a:hover{
+    color: palevioletred;
+}
+
+.Parent_Img {
+    padding: 5px 40px;
+}
+
+.Parent_Img img{
+    width: 20em;
+}
+
+.subImg {
+    padding: 5px 0px;
+}
+
+/* section - 03 */
+
+.Parent_form {
+    background-color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 18px; */
+}
+
+.Parent_Subform{
+    max-width: 1480px;
+    width: 100%;
+    /* padding: 40px 150px 40px 150px; */
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 18px; */
+}
+
+.Parent_childform {
+    padding: 20px 0px;
+    max-width: 715px;
+    width: 100%;
+}
+
+.Paragraph_section #main_para {
+    font-size: 20px !important;
+    text-align: center;
+    /* padding: 10px 0px; */
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.Paragraph_section #second_para {
+    font-size: 19px !important;
+    text-align: center;
+    /* padding: 10px 0px; */
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.subform_section{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.formst_div {
+    display: flex;
+    justify-content: center;
+    width: 685px;
+    /* justify-content: space-evenly; */
+}
+
+.childform_div {
+    width: 338px;
+}
+
+.childform_div input[type="text"] {
+    margin: 11px 0px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.childform2_div{
+    width: 338px;
+    margin-left: 10px;
+}
+
+.childform2_div input[type="text"] {
+    margin: 11px 0px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+}
+.formemail_div{
+    width: 685px;
+}
+.formemail_div input[type="email"] {
+    margin: 11px 0px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.formcontact_div{
+    width: 685px;
+}
+.formcontact_div input[type="text"]{
+    margin: 11px 0px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.formcontact_div input[type="number"]{
+    margin: 11px 0px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.formbuttom_div {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+button#submitform {
+    width: 25%;
+    padding: 15px;
+    font-size: 19px !important;
+    border: none;
+    border-radius: 7px;
+    background-color: #05b7b5;
+    color: white;
+}
+
+
+/* <------------------ Responsive -------------> */
+
+@media screen and (max-width: 1330px) {
+    /* header */
+    nav.navbar.navbar-expand-lg.navbar-light.bg-white.Header_section {
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
+    .getaproposal{
+        padding: 10px;
+    }
+    
+/* section-01 */
+   
+    .Parent_Subsection1{
+        padding: 40px 100px 40px 100px;
+        
+    }
+    .HeaderContent1 h1{
+        /* border: 1px solid red; */
+    }
+    .SubHeaderContent2 {
+        padding:25px;
+        /* border: 1px solid red; */
+    }
+    .st_subdiv input{
+        width: 244px;
+    }
+    
+    .HeaderContent1 .touch{
+        width: 8em;
+    }
+    .st_subdiv select{
+        width: 244px
+    }
+    .Parent_Subsection1{
+        padding: 40px 40px 40px 40px;
+    }
+
+    /* section - 02 */
+    .Parent_section2{
+        padding: 20px 0px
+    }
+    .Parent_subsection2 {
+       
+        padding: 10px 0px;
+    }
+    
+    .Parent_subchildsection2 {
+        
+        padding: 20px 0px;
+     
+    }
+}
+
+@media screen and (max-width:1200px) {
+    /* nav.navbar.navbar-expand-lg.navbar-light.bg-white.Header_section {
+        padding-right: 30px;
+        padding-left: 30px;
+    } */
+    .st_subdiv input{
+        width: 180px;
+    }
+    
+    .HeaderContent1 .touch{
+        width: 8em;
+    }
+    .st_subdiv select{
+        width: 180px
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .HeaderContent1 h1{
+        font-size: 30px;
+       /* border: 1px solid green; */
+    }
+    .SubHeaderContent2 {
+        padding:8px;
+    }
+    .Parent_Subsection1 {
+        padding: 40px 20px 40px 20px;
+    }
+    .st_subdiv input{
+        width: 140px;
+    }
+    
+    .HeaderContent1 .touch{
+        width: 8em;
+    }
+    .st_subdiv select{
+        width: 140px
+    }
+    /* section 02  */
+    .Parent_Content {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .Parent_subchildsection2{
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+    }
+    .Parent_Img {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Parent_Img img{
+        width: 15em !important;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .HeaderContent1 h1{
+        font-size: 20px;
+       /* border: 1px solid green; */
+    }
+      .st_subdiv input{
+        width: 135px;
+    }
+    
+    .HeaderContent1 .touch{
+        width: 8em;
+    }
+    .st_subdiv select{
+        width: 135px
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .HeaderContent1 h1{
+      font-size: 28px !important;
+      text-align: center;
+    }
+   
+    .HeaderContent2{
+       display: none;
+    }
+    .HeaderContent1 .touchclass{
+        display: flex;
+        justify-content: center;
+    }
+    .formst_div {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    .childform_div {
+        width: 400px;
+    }
+
+    .formemail_div {
+        width: 400px;
+    }
+    .formcontact_div {
+        width: 400px;
+    }
+    
+    .childform2_div{
+        width: 400px;
+        margin-left: 0px;
+    }
+    .formbuttom_div{
+        padding: 5px;
+    }
+    button#submitform {
+        width: 50%;
+        padding: 13px;
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width:565px){
+    .Parent_Img {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width:450px) {
+.Parent_Img {
+    padding: 0px 15px;
+}
+
+    .formst_div {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+    .childform_div {
+        width: 250px;
+    }
+
+    .formemail_div {
+        width: 250px;
+    }
+    .formcontact_div {
+        width: 250px;
+    }
+    
+    .childform2_div{
+        width: 250px;
+        margin-left: 0px;
+    }
+}
